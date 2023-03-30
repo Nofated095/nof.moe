@@ -52,7 +52,7 @@ export default function StickyFooter() {
       >
         <Container maxWidth="sm">
           <Typography variant="body1">
-            My sticky footer can be found here.
+            Made by Nofated. 萌 ICP 备 20230721 号。
           </Typography>
           <Copyright />
         </Container>
