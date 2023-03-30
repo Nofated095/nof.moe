@@ -8,12 +8,13 @@ import Tabs from './Tabs';
 
 function Copyright() {
   return (
-    <Typography variant="body2" color="text.secondary" align="center">
+    <Typography variant="body2" color="text.secondary">
       {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
+      <Link color="inherit" href="https://github.com/Nofated095">
+        Nofated
       </Link>{' '}
-      {new Date().getFullYear()}.
+      {new Date().getFullYear()}
+      {'.'}
     </Typography>
   );
 }
@@ -26,11 +27,7 @@ export default function App() {
         <Typography variant="h2" component="h1" gutterBottom>
           Nofated
         </Typography>
-        <Typography variant="h5" component="h2" gutterBottom>
-          {'Forever you will be in my heart.'}
-          {'The footer will move as the main element of the page grows.'}
-        </Typography>
-        <Typography variant="body1">Sticky footer placeholder.</Typography>
+        <Typography variant="body1">Forever you will be in my heart.</Typography>
       </Container>
         <Tabs />
         <Copyright />
