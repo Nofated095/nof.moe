@@ -54,13 +54,13 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        <Typography variant="h3" component="h3" gutterBottom>
+        <Typography variant="h5" component="h5" gutterBottom>
           <strong>Yoo!</strong>
         </Typography>
         <Typography variant="body1">
         I'm Nofated. I am a newbie in the coding world.
         </Typography>
-        <Typography variant="h3" component="h3" gutterBottom>
+        <Typography variant="h5" component="h5" gutterBottom>
           <strong>Misc</strong>
         </Typography>
         <Typography variant="body1">
@@ -72,7 +72,9 @@ export default function BasicTabs() {
         </Typography>
       </TabPanel>
       <TabPanel value={value} index={1}>
-        About text here
+        <Typography variant="h5" component="h5" gutterBottom>
+          <strong>About</strong>
+        </Typography>
       </TabPanel>
       <TabPanel value={value} index={2}>
         Link here! qwq
