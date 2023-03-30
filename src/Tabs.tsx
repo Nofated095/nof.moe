@@ -54,7 +54,22 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        Home Text Here
+        <Typography variant="h3" component="h3" gutterBottom>
+          <strong>Yoo!</strong>
+        </Typography>
+        <Typography variant="body1">
+        I'm Nofated. I am a newbie in the coding world.
+        </Typography>
+        <Typography variant="h3" component="h3" gutterBottom>
+          <strong>Misc</strong>
+        </Typography>
+        <Typography variant="body1">
+        🏫 I am a student who lives in Beijing, China.
+📒️ I have a blog based on the Hexo.
+⌨️ Coding and open-source are great! Though I haven't learnt any languages...
+🏢 I am a member of LittleSkin Community Support . I help maintain the bot and manual.
+🚔 I am a fan of Minecraft, Grand Theft Auto, and anime.
+        </Typography>
       </TabPanel>
       <TabPanel value={value} index={1}>
         About text here
