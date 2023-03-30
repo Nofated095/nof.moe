@@ -9,19 +9,13 @@ function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary">
       {'Copyright © '}
-      <Link color="inherit" href="https://github.com/Nofated095/">
+      <Link color="inherit" href="https://github.com/Nofsted095">
         Nofated
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
-
     </Typography>
-    <Typography variant="body2" color="text.secondary">
-       <Link color="inherit" href="https://icp.gov.moe/?keyword=20230721">
-        萌 ICP 备 20230721 号
-      </Link>
-      。
-    </Typography>
+    
   );
 }
 
