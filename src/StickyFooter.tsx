@@ -9,11 +9,18 @@ function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary">
       {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
+      <Link color="inherit" href="https://github.com/Nofated095/">
+        Nofated
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
+
+    </Typography>
+    <Typography variant="body2" color="text.secondary">
+       <Link color="inherit" href="https://icp.gov.moe/?keyword=20230721">
+        萌 ICP 备 20230721 号
+      </Link>
+      。
     </Typography>
   );
 }
@@ -51,9 +58,7 @@ export default function StickyFooter() {
         }}
       >
         <Container maxWidth="sm">
-          <Typography variant="body1">
-            Made by Nofated. 萌 ICP 备 20230721 号。
-          </Typography>
+
           <Copyright />
         </Container>
       </Box>
