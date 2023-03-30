@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
       <CssBaseline />
       <App />
 
-      <StickyFooter />
+
     </ThemeProvider>
   </React.StrictMode>,
 );
