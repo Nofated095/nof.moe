@@ -66,7 +66,7 @@ export default function BasicTabs() {
         <Typography variant="body1">
         {'🏫 I am a student who lives in Beijing, China.'}
 {'📒️ I have a blog based on the Hexo.'}
-{'⌨️ Coding and open-source are great! Though I haven't learnt any languages...'}
+{'⌨️ Coding and open-source are great! Though I haven not learnt any languages...'}
 {'🏢 I am a member of LittleSkin Community Support . I help maintain the bot and manual.'}
 {'🚔 I am a fan of Minecraft, Grand Theft Auto, and anime.'}
         </Typography>
