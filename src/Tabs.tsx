@@ -77,7 +77,7 @@ export default function BasicTabs() {
         </Typography>
         <Typography variant="body1">
         {'I am in senior high and I am preparing for the Chinese College Entrance Examination, aka GaoKao.'}
-{'I do open-source works, you can check them on GitHub. But I didn't have a completely independent open-source project.😢'}
+{'I do open-source works, you can check them on GitHub. But I did not have a completely independent open-source project.😢'}
 {'I am happy to chat. Chinese is OK but I am very poor at English listening and speaking.😰'}
         </Typography>
       </TabPanel>
