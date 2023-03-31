@@ -76,18 +76,10 @@ export default function BasicTabs() {
           <strong>About</strong>
         </Typography>
         <Typography variant="body1">
-        {'I am in senior high and I'm preparing for the Chinese College Entrance Examination, aka GaoKao.
-'}
-{'I do open-source works, you can check them on GitHub. But I didn't have a completely independent open-source project.😢
-'}
-{'I am happy to chat. Chinese is OK but I am very poor at English listening and speaking.😰
-'}
-
-
+        {'I am in senior high and I am preparing for the Chinese College Entrance Examination, aka GaoKao.'}
+{'I do open-source works, you can check them on GitHub. But I didn't have a completely independent open-source project.😢'}
+{'I am happy to chat. Chinese is OK but I am very poor at English listening and speaking.😰'}
         </Typography>
-        
-
-
       </TabPanel>
       <TabPanel value={value} index={2}>
         Link here! qwq
