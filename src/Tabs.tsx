@@ -64,11 +64,11 @@ export default function BasicTabs() {
           <strong>Misc</strong>
         </Typography>
         <Typography variant="body1">
-        {'🏫 I am a student who lives in Beijing, China.'}
-{'📒️ I have a blog based on the Hexo.'}
-{'⌨️ Coding and open-source are great! Though I haven not learnt any languages...'}
-{'🏢 I am a member of LittleSkin Community Support . I help maintain the bot and manual.'}
-{'🚔 I am a fan of Minecraft, Grand Theft Auto, and anime.'}
+        🏫 I am a student who lives in Beijing, China.<br />
+📒️ I have a blog based on the Hexo.<br />
+⌨️ Coding and open-source are great! Though I haven not learnt any languages...<br />
+🏢 I am a member of LittleSkin Community Support . I help maintain the bot and manual.<br />
+🚔 I am a fan of Minecraft, Grand Theft Auto, and anime.
         </Typography>
       </TabPanel>
       <TabPanel value={value} index={1}>
@@ -76,9 +76,9 @@ export default function BasicTabs() {
           <strong>About</strong>
         </Typography>
         <Typography variant="body1">
-        {'I am in senior high and I am preparing for the Chinese College Entrance Examination, aka GaoKao.'}
-{'I do open-source works, you can check them on GitHub. But I did not have a completely independent open-source project.😢'}
-{'I am happy to chat. Chinese is OK but I am very poor at English listening and speaking.😰'}
+        I am in senior high and I am preparing for the Chinese College Entrance Examination, aka GaoKao.<br />
+I do open-source works, you can check them on GitHub. But I did not have a completely independent open-source project.😢
+<br />I am happy to chat. Chinese is OK but I am very poor at English listening and speaking.😰<br />
         </Typography>
       </TabPanel>
       <TabPanel value={value} index={2}>
