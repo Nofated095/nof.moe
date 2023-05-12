@@ -9,13 +9,20 @@ import Tab from '@mui/material/Tab';
 
 function Copyright() {
   return (
-    <Typography variant="body2" color="text.secondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://nof.moe">
-        Nofated
-      </Link>{' '}
-      {new Date().getFullYear()}.
-    </Typography>
+    <>
+      <Typography variant="body2" color="text.secondary" align="center">
+        {'Copyright © '}
+        <Link color="inherit" href="#">
+          Nofated095
+        </Link>{' '}
+        {new Date().getFullYear()}.
+      </Typography>
+      <Typography variant="body2" color="text.secondary" align="center">
+        <Link color="inherit" href="https://icp.gov.moe/?keyword=20230721">
+        萌 ICP 备 20230721 号
+        </Link>
+      </Typography>
+    </>
   );
 }
 
@@ -122,9 +129,7 @@ export default function App() {
               </Box>
             </TabPanel>
           </Box>
-          {/*           <TabsPannel /> */}
         </Grid>
-
         <Copyright />
       </Box>
     </Container>
