@@ -4,8 +4,9 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import Grid from '@mui/material/Unstable_Grid2';
-import Avatar from '@mui/material/Avatar';
-import Tabs from './Tabs';
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
+import TabsPannel from './Tabs';
 
 function Copyright() {
   return (
@@ -28,7 +29,7 @@ export default function App() {
         pb: 6,
       }}>
         <Grid container spacing={2}>
-          <Grid xs={3}>
+          <Grid xs={"auto"}>
             <img
               src={`https://cdn.nofated.win/avatarsoss`}
               srcSet={`https://cdn.nofated.win/avatarsoss`}
@@ -38,12 +39,19 @@ export default function App() {
             />
             {/* <Avatar alt="Nofated" src="https://cdn.nofated.win/avatarsoss" sx={{ width: 128, height: 128 }} /> */}
           </Grid>
-          <Grid xs={6}>
+          <Grid xs>
             <Typography variant="h4" component="h1" gutterBottom sx={{ fontFamily: 'neonderthaw' }}>
               Nofated
             </Typography>
+            <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+              <Tabs>
+                <Tab label="Home" />
+                <Tab label="About" />
+                <Tab label="Blog" href="https://blog.nofated.win" />
+              </Tabs>
+            </Box>
           </Grid>
-          <Tabs />
+          {/*           <TabsPannel /> */}
         </Grid>
 
         <Copyright />
