@@ -85,9 +85,6 @@ export default function BasicTabs() {
                     I am happy to chat. Chinese is OK but I am very poor at English listening and speaking.😰<br />
                 </Box>
             </TabPanel>
-            <TabPanel value={value} index={2}>
-                Redirecting...
-            </TabPanel>
         </Box>
     );
 }
