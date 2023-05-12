@@ -6,7 +6,6 @@ import Link from '@mui/material/Link';
 import Grid from '@mui/material/Unstable_Grid2';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
-import TabsPannel from './Tabs';
 
 function Copyright() {
   return (
@@ -20,7 +19,46 @@ function Copyright() {
   );
 }
 
+interface TabPanelProps {
+  children?: React.ReactNode;
+  index: number;
+  value: number;
+}
+
+function TabPanel(props: TabPanelProps) {
+  const { children, value, index, ...other } = props;
+
+  return (
+    <div
+      role="tabpanel"
+      hidden={value !== index}
+      id={`simple-tabpanel-${index}`}
+      aria-labelledby={`simple-tab-${index}`}
+      {...other}
+    >
+      {value === index && (
+        <Box sx={{ p: 3 }}>
+          <Typography>{children}</Typography>
+        </Box>
+      )}
+    </div>
+  );
+}
+
+function a11yProps(index: number) {
+  return {
+    id: `simple-tab-${index}`,
+    'aria-controls': `simple-tabpanel-${index}`,
+  };
+}
+
 export default function App() {
+
+  const [value, setValue] = React.useState(0);
+
+  const handleChange = (event: React.SyntheticEvent, newValue: number) => {
+    setValue(newValue);
+  };
   return (
     <Container maxWidth="sm">
       <Box sx={{
@@ -32,7 +70,7 @@ export default function App() {
           <Grid xs={"auto"}>
             <img
               src={`https://cdn.nofated.win/avatarsoss`}
-              srcSet={`https://cdn.nofated.win/avatarsoss`}
+              srcSet={`https://cdn.nofated.win/avatar/256`}
               alt={'Avatar'}
               loading="lazy"
               width={128}
@@ -44,13 +82,46 @@ export default function App() {
               Nofated
             </Typography>
             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-              <Tabs>
-                <Tab label="Home" />
-                <Tab label="About" />
+              <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+                <Tab label="Home" {...a11yProps(0)} />
+                <Tab label="About" {...a11yProps(1)} />
                 <Tab label="Blog" href="https://blog.nofated.win" />
               </Tabs>
             </Box>
           </Grid>
+          <Box sx={{ width: '100%' }}>
+            <TabPanel value={value} index={0}>
+              <Box sx={{ my: 1 }}>
+                <Typography variant="h5" component="h2" gutterBottom>
+                  Yoo!
+                </Typography>
+                I'm Nofated. I am a newbie in the coding world.<br />
+                Find me on GitHub, Twitter and Telegram.
+              </Box>
+              <Box sx={{ my: 1 }}>
+                <Typography variant="h5" component="h2" gutterBottom>
+                  Misc
+                </Typography>
+                🏫 I am a student who lives in Beijing, China.<br />
+                📒️ I have a blog based on the Hexo.<br />
+                ⌨️ Coding and open-source are great! Though I haven't learnt any languages...<br />
+                🏢 I am a member of LittleSkin Community Support . I help maintain the bot and manual.<br />
+                🚔 I am a fan of Minecraft, Grand Theft Auto, and anime.<br />
+              </Box>
+            </TabPanel>
+            <TabPanel value={value} index={1}>
+              <Box sx={{ my: 1 }}>
+                <Typography variant="h5" component="h2" gutterBottom>
+                  About
+                </Typography>
+                I am in senior high and I'm preparing for the Chinese College Entrance Examination, aka GaoKao.<br />
+
+                I do open-source works, you can check them on GitHub. But I didn't have a completely independent open-source project.😢<br />
+
+                I am happy to chat. Chinese is OK but I am very poor at English listening and speaking.😰<br />
+              </Box>
+            </TabPanel>
+          </Box>
           {/*           <TabsPannel /> */}
         </Grid>
 
