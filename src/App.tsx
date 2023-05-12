@@ -77,7 +77,7 @@ export default function App() {
             />
             {/* <Avatar alt="Nofated" src="https://cdn.nofated.win/avatarsoss" sx={{ width: 128, height: 128 }} /> */}
           </Grid>
-          <Grid xs>
+          <Grid xs={8}>
             <Typography variant="h4" component="h1" gutterBottom sx={{ fontFamily: 'neonderthaw' }}>
               Nofated
             </Typography>
