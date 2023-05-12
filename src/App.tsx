@@ -112,8 +112,8 @@ export default function App() {
                 🏫 I am a student who lives in Beijing, China.<br />
                 📒️ I have a blog based on the Hexo.<br />
                 ⌨️ Coding and open-source are great! Though I haven't learnt any languages...<br />
-                🏢 I am a member of LittleSkin Community Support . I help maintain the bot and manual.<br />
-                🚔 I am a fan of Minecraft, Grand Theft Auto, and anime.<br />
+                🏢 I am a member of LittleSkin Community Support. I help maintain the bot and manual.<br />
+                🚔 I am a fan of Yuzu Soft, Minecraft, Grand Theft Auto, and anime.<br />
               </Box>
             </TabPanel>
             <TabPanel value={value} index={1}>
