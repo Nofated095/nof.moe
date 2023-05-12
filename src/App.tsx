@@ -22,25 +22,30 @@ function Copyright() {
 export default function App() {
   return (
     <Container maxWidth="sm">
-      <Box sx={{ my: 4 }}>
+      <Box sx={{
+        my: 4,
+        pt: 8,
+        pb: 6,
+      }}>
         <Grid container spacing={2}>
-          <Grid xs={4}>
-            {/* <img
+          <Grid xs={3}>
+            <img
               src={`https://cdn.nofated.win/avatarsoss`}
               srcSet={`https://cdn.nofated.win/avatarsoss`}
               alt={'Avatar'}
               loading="lazy"
               width={128}
-            /> */}
-            <Avatar alt="Nofated" src="https://cdn.nofated.win/avatarsoss" sx={{ width: 128, height: 128 }} />
+            />
+            {/* <Avatar alt="Nofated" src="https://cdn.nofated.win/avatarsoss" sx={{ width: 128, height: 128 }} /> */}
           </Grid>
-          <Grid xs={8}>
-            <Typography variant="h4" component="h1" gutterBottom>
+          <Grid xs={6}>
+            <Typography variant="h4" component="h1" gutterBottom sx={{ fontFamily: 'neonderthaw' }}>
               Nofated
             </Typography>
           </Grid>
+          <Tabs />
         </Grid>
-        <Tabs />
+
         <Copyright />
       </Box>
     </Container>
