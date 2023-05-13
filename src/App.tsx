@@ -108,10 +108,11 @@ export default function App() {
                 <Typography variant="h5" component="h2" gutterBottom>
                   Yoo!
                 </Typography>
-                <Stack spacing={2} direction="row">
-                <Typography>
                 I'm Nofated. I am a newbie in the coding world.<br />
                 Find me on
+                <Stack spacing={2} direction="row">
+                <Typography variant="h5" component="h2" gutterBottom>
+                  Yoo!
                 </Typography>
                   <Button variant="text" color="inherit" href="https://github.com/Nofated095" startIcon={<GitHubIcon />}>
                     GitHub
@@ -140,12 +141,19 @@ export default function App() {
                 <Typography variant="h5" component="h2" gutterBottom>
                   About
                 </Typography>
-                I am in senior high and I'm preparing for the Chinese College Entrance Examination, aka GaoKao. But maybe I will also prepare for Hong Kong DSE.<br />
+                I am in senior high and I'm preparing for the Chinese College Entrance Examination, aka GaoKao. Maybe I will also prepare for Hong Kong DSE.<br />
 
                 I do open-source works, you can check them on GitHub. But I didn't have a completely independent open-source project.😢<br />
 
                 I am happy to chat. Chinese is OK but I am very poor at English listening and speaking.😰<br />
 
+              </Box>
+            </TabPanel>
+            <TabPanel value={value} index={2}>
+              <Box sx={{ my: 1 }}>
+                <Typography variant="h5" component="h2" gutterBottom>
+                  Redirecting...
+                </Typography>
               </Box>
             </TabPanel>
           </Box>
