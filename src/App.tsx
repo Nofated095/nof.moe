@@ -7,6 +7,10 @@ import Grid from '@mui/material/Unstable_Grid2';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 
+import GitHubIcon from '@mui/icons-material/GitHub';
+import TelegramIcon from '@mui/icons-material/Telegram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+
 function Copyright() {
   return (
     <>
@@ -19,7 +23,7 @@ function Copyright() {
       </Typography>
       <Typography variant="body2" color="text.secondary" align="center">
         <Link color="inherit" href="https://icp.gov.moe/?keyword=20230721">
-        萌 ICP 备 20230721 号
+          萌 ICP 备 20230721 号
         </Link>
       </Typography>
     </>
@@ -103,7 +107,16 @@ export default function App() {
                   Yoo!
                 </Typography>
                 I'm Nofated. I am a newbie in the coding world.<br />
-                Find me on GitHub, Twitter and Telegram.
+                Find me on{' '}
+                <Link href="https://github.com/Nofated095" color="inherit">
+                  <GitHubIcon />GitHub
+                </Link>{', '}
+                <Link href="https://t.me/Nofated" color="inherit">
+                  <TelegramIcon />Telegram
+                </Link> and{' '}
+                <Link href="https://twitter.com/nofated095" color="inherit">
+                  <TwitterIcon />Twitter
+                </Link>.
               </Box>
               <Box sx={{ my: 1 }}>
                 <Typography variant="h5" component="h2" gutterBottom>
