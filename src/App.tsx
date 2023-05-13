@@ -108,9 +108,11 @@ export default function App() {
                 <Typography variant="h5" component="h2" gutterBottom>
                   Yoo!
                 </Typography>
+                <Stack spacing={2} direction="row">
+                <Typography>
                 I'm Nofated. I am a newbie in the coding world.<br />
                 Find me on
-                <Stack spacing={2} direction="row">
+                </Typography>
                   <Button variant="text" color="inherit" href="https://github.com/Nofated095" startIcon={<GitHubIcon />}>
                     GitHub
                   </Button>
@@ -126,7 +128,7 @@ export default function App() {
                 <Typography variant="h5" component="h2" gutterBottom>
                   Misc
                 </Typography>
-                🏫 I am delivered by Cloudflare Global CDN. <strong>CLOUDFLARE.COM</strong><br />
+                🏫 I am delivered by Cloudflare Global CDN.<br />
                 📒️ I have a blog based on the Hexo.<br />
                 ⌨️ Coding and open-source are great! Though I haven't learnt any languages...<br />
                 🏢 I am a member of LittleSkin Community Support. I help maintain the bot and manual.<br />
