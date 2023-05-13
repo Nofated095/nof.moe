@@ -1,39 +1,24 @@
-# Material UI - Vite.js in Typescript example
+# nof.moe Project
+###### Material UI, Vite.js, and Typescript.
 
-## How to use
 
-Download the example [or clone the repo](https://github.com/mui/material-ui):
 
-<!-- #default-branch-switch -->
-
-```sh
-curl https://codeload.github.com/mui/material-ui/tar.gz/master | tar -xz --strip=2 material-ui-master/examples/material-vite-ts
-cd material-vite-ts
-```
-
-Install it and run:
+## Dev
 
 ```sh
-npm install
-npm run dev
+git clone https://github.com/Nofated095/nof.moe.git
+cd nof.moe
+yarn
+yarn dev
 ```
 
-or:
+## The idea behind the project
 
-<!-- #default-branch-switch -->
-
-[![Edit on StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mui/material-ui/tree/master/examples/material-vite-ts)
-
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mui/material-ui/tree/master/examples/material-vite-ts)
-
-## The idea behind the example
-
-This example uses [Vite.js](https://github.com/vitejs/vite).
+- This project uses [Vite.js](https://github.com/vitejs/vite).
 It includes `@mui/material` with `@mui/icons-material` and their peer dependencies, including [Emotion](https://emotion.sh/docs/introduction), the default style engine in Material UI v5.
 
-## What's next?
+- This project is a rewrite for [Nofated095/nofated.win](https://github.com/Nofated095/nofated.win). Although it used to have a shit and large HTML & CSS & JS code with a low performance on browser, but the design is disreable so that the nof.moe is still using the style.
 
-<!-- #default-branch-switch -->
+## LICENSE
 
-You now have a working example project.
-You can head back to the documentation, continuing browsing it from the [templates](https://mui.com/material-ui/getting-started/templates/) section.
+The project is under MIT Licence
