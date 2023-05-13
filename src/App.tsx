@@ -86,9 +86,9 @@ export default function App() {
               src={`https://cdn.nofated.win/avatarsoss`}
               srcSet={`https://cdn.nofated.win/avatar/256`}
               alt={'Nofated avatar'}
-              sizes={'128'} 
-              /* loading="lazy" */
+              sx={{ width: 128, height: 128 }}
             />
+            {/* <Avatar alt="Nofated" src="https://cdn.nofated.win/avatarsoss" sx={{ width: 128, height: 128 }} /> */}
           </Grid>
           <Grid xs={8.75}>
             <Typography variant="h4" component="h1" gutterBottom sx={{ fontFamily: 'neonderthaw' }}>
