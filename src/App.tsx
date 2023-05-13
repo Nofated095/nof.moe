@@ -83,7 +83,7 @@ export default function App() {
           <Grid xs={"auto"}>
             <img
               src={`https://cdn.nofated.win/avatarsoss`}
-              srcSet={`https://cdn.nofated.win/avatar/128`}
+              srcSet={`https://cdn.nofated.win/avatar/256`}
               alt={'Nofated avatar'}
               loading="lazy"
               width={128}
@@ -111,9 +111,6 @@ export default function App() {
                 I'm Nofated. I am a newbie in the coding world.<br />
                 Find me on
                 <Stack spacing={2} direction="row">
-                <Typography variant="h5" component="h2" gutterBottom>
-                  Yoo!
-                </Typography>
                   <Button variant="text" color="inherit" href="https://github.com/Nofated095" startIcon={<GitHubIcon />}>
                     GitHub
                   </Button>
