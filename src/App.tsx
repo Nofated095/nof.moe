@@ -8,6 +8,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
+import Avatar from '@mui/material/Avatar';
 
 import GitHubIcon from '@mui/icons-material/GitHub';
 import TelegramIcon from '@mui/icons-material/Telegram';
@@ -81,14 +82,13 @@ export default function App() {
       }}>
         <Grid container spacing={2}>
           <Grid xs={"auto"}>
-            <img
+            <Avatar
               src={`https://cdn.nofated.win/avatarsoss`}
               srcSet={`https://cdn.nofated.win/avatar/256`}
               alt={'Nofated avatar'}
-              loading="lazy"
-              width={128}
+              sizes={'128'} 
+              /* loading="lazy" */
             />
-            {/* <Avatar alt="Nofated" src="https://cdn.nofated.win/avatarsoss" sx={{ width: 128, height: 128 }} /> */}
           </Grid>
           <Grid xs={8.75}>
             <Typography variant="h4" component="h1" gutterBottom sx={{ fontFamily: 'neonderthaw' }}>
@@ -127,7 +127,7 @@ export default function App() {
                   Misc
                 </Typography>
                 🏫 I am delivered by Cloudflare Global CDN. Lives on Cloud.<br />
-                📒️ I have a blog based on the Hexo.<br />
+                📒️ I have a blog based on Hexo.<br />
                 ⌨️ Coding and open-source are great! Though I haven't learnt any languages...<br />
                 🧪 I am an iGEMer, now working for 2023 <Link href="https://competition.igem.org/">iGEM Competition</Link>!<br />
                 🚔 I am a fan of Yuzu Soft, Minecraft, Grand Theft Auto, and anime.<br />
