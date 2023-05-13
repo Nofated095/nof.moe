@@ -111,13 +111,13 @@ export default function App() {
                 I'm Nofated. I am a newbie in the coding world.<br />
                 Find me on
                 <Stack spacing={2} direction="row">
-                  <Button variant="text" href="https://github.com/Nofated095" startIcon={<GitHubIcon />}>
+                  <Button variant="text" color="inherit" href="https://github.com/Nofated095" startIcon={<GitHubIcon />}>
                     GitHub
                   </Button>
-                  <Button variant="text" href="https://t.me/s/Nofated" startIcon={<TelegramIcon />}>
+                  <Button variant="text" color="inherit" href="https://t.me/s/Nofated" startIcon={<TelegramIcon />}>
                     Telegram
                   </Button>
-                  <Button variant="text" href="https://twitter.com/nofated095" startIcon={<TwitterIcon />}>
+                  <Button variant="text" color="inherit" href="https://twitter.com/nofated095" startIcon={<TwitterIcon />}>
                     Twitter
                   </Button>
                 </Stack>
@@ -126,7 +126,7 @@ export default function App() {
                 <Typography variant="h5" component="h2" gutterBottom>
                   Misc
                 </Typography>
-                🏫 I am a student who lives in Beijing, China.<br />
+                🏫 I am delivered by Cloudflare Global CDN. <strong>CLOUDFLARE.COM</strong><br />
                 📒️ I have a blog based on the Hexo.<br />
                 ⌨️ Coding and open-source are great! Though I haven't learnt any languages...<br />
                 🏢 I am a member of LittleSkin Community Support. I help maintain the bot and manual.<br />
@@ -138,11 +138,12 @@ export default function App() {
                 <Typography variant="h5" component="h2" gutterBottom>
                   About
                 </Typography>
-                I am in senior high and I'm preparing for the Chinese College Entrance Examination, aka GaoKao.<br />
+                I am in senior high and I'm preparing for the Chinese College Entrance Examination, aka GaoKao. But maybe I will also prepare for Hong Kong DSE.<br />
 
                 I do open-source works, you can check them on GitHub. But I didn't have a completely independent open-source project.😢<br />
 
                 I am happy to chat. Chinese is OK but I am very poor at English listening and speaking.😰<br />
+
               </Box>
             </TabPanel>
           </Box>
