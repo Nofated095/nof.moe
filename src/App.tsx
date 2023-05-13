@@ -83,8 +83,8 @@ export default function App() {
           <Grid xs={"auto"}>
             <img
               src={`https://cdn.nofated.win/avatarsoss`}
-              srcSet={`https://cdn.nofated.win/avatar/256`}
-              alt={'Avatar'}
+              srcSet={`https://cdn.nofated.win/avatar/128`}
+              alt={'Nofated avatar'}
               loading="lazy"
               width={128}
             />
@@ -132,7 +132,7 @@ export default function App() {
                 🏫 I am delivered by Cloudflare Global CDN. Lives on Cloud.<br />
                 📒️ I have a blog based on the Hexo.<br />
                 ⌨️ Coding and open-source are great! Though I haven't learnt any languages...<br />
-                🏢 I am a member of LittleSkin Community Support. I help maintain the bot and manual.<br />
+                🧪 I am an iGEMer, now working for 2023 <Link href="https://competition.igem.org/">iGEM Competition</Link>!<br />
                 🚔 I am a fan of Yuzu Soft, Minecraft, Grand Theft Auto, and anime.<br />
               </Box>
             </TabPanel>
@@ -143,9 +143,9 @@ export default function App() {
                 </Typography>
                 I am in senior high and I'm preparing for the Chinese College Entrance Examination, aka GaoKao. Maybe I will also prepare for Hong Kong DSE.<br />
 
-                I do open-source works, you can check them on GitHub. But I didn't have a completely independent open-source project.😢<br />
+                I do open-source works, you can check them on <Link href='https://github.com/Nofated095'>GitHub</Link>. But I don't have any completely independent open-source project that is made by myself.😢<br />
 
-                I am happy to chat. Chinese is OK but I am very poor at English listening and speaking.😰<br />
+                {/* I am happy to chat. Chinese is OK but I am very poor at English listening and speaking.😰 */}
 
               </Box>
             </TabPanel>
