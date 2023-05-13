@@ -129,7 +129,7 @@ export default function App() {
                 <Typography variant="h5" component="h2" gutterBottom>
                   Misc
                 </Typography>
-                🏫 I am delivered by Cloudflare Global CDN.<br />
+                🏫 I am delivered by Cloudflare Global CDN. Lives on Cloud.<br />
                 📒️ I have a blog based on the Hexo.<br />
                 ⌨️ Coding and open-source are great! Though I haven't learnt any languages...<br />
                 🏢 I am a member of LittleSkin Community Support. I help maintain the bot and manual.<br />
