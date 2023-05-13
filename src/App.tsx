@@ -7,7 +7,7 @@ import Grid from '@mui/material/Unstable_Grid2';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Button from '@mui/material/Button';
-import Stack from '@mui/material/Box';
+import Stack from '@mui/material/Stack';
 
 import GitHubIcon from '@mui/icons-material/GitHub';
 import TelegramIcon from '@mui/icons-material/Telegram';
@@ -110,14 +110,14 @@ export default function App() {
                 </Typography>
                 I'm Nofated. I am a newbie in the coding world.<br />
                 Find me on
-                <Stack direction="row" spacing={2}>
-                  <Button href="https://github.com/Nofated095" startIcon={<GitHubIcon />}>
+                <Stack spacing={2} direction="row">
+                  <Button variant="text" href="https://github.com/Nofated095" startIcon={<GitHubIcon />}>
                     GitHub
                   </Button>
-                  <Button href="https://t.me/s/Nofated" startIcon={<TelegramIcon />}>
+                  <Button variant="text" href="https://t.me/s/Nofated" startIcon={<TelegramIcon />}>
                     Telegram
                   </Button>
-                  <Button href="https://twitter.com/nofated095" startIcon={<TwitterIcon />}>
+                  <Button variant="text" href="https://twitter.com/nofated095" startIcon={<TwitterIcon />}>
                     Twitter
                   </Button>
                 </Stack>
