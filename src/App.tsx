@@ -108,15 +108,15 @@ export default function App() {
                 <Typography variant="h5" component="h2" gutterBottom>
                   <strong>Yoo!</strong>
                 </Typography>
-                <Typography paragraph="true">             
-                  I'm Nofated. I am a newbie in the coding world.
+                <Typography paragraph>             
+                  I'm Nofated. I am a newbie in the coding world, new to the Internet World.
                 </Typography>
               </Box>
               <Box sx={{ my: 1 }}>
                 <Typography variant="h5" component="h2" gutterBottom>
                   <strong>Misc</strong>
                 </Typography>
-                <Typography paragraph="true">
+                <Typography paragraph>
                   🏫 I am delivered by Cloudflare Global CDN. Live on Cloud.<br />
                   📒️ I have a <Link href="https://blog.nofated.win/">blog</Link> based on Hexo.<br />
                   ⌨️ Coding and open-source are great! Though I haven't learnt any languages...<br />
@@ -146,10 +146,10 @@ export default function App() {
                 <Typography variant="h5" component="h2" gutterBottom>
                   <strong>About</strong>
                 </Typography>
-                <Typography paragraph="true">
+                <Typography paragraph>
                   I am in senior high and I'm preparing for the Chinese College Entrance Examination, aka GaoKao. Maybe I will also prepare for Hong Kong DSE.
                 </Typography>
-                <Typography paragraph="true" >
+                <Typography paragraph>
                   I do open-source works, you can check them on <Link href='https://github.com/Nofated095'>GitHub</Link>. But I don't have any completely independent open-source project that is made by myself.😢
                 </Typography>
 
