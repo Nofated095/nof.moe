@@ -80,7 +80,7 @@ export default function App() {
         pt: 8,
         pb: 6,
       }}>
-        <Grid container spacing={2}>
+        <Grid container spacing={3.5}>
           <Grid xs={"auto"}>
             <Avatar
               src={`https://cdn.nofated.win/avatarsoss`}
@@ -106,10 +106,28 @@ export default function App() {
             <TabPanel value={value} index={0}>
               <Box sx={{ my: 1 }}>
                 <Typography variant="h5" component="h2" gutterBottom>
-                  Yoo!
+                  <strong>Yoo!</strong>
                 </Typography>
-                I'm Nofated. I am a newbie in the coding world.<br />
-                Find me on
+                <Typography paragraph="true">             
+                  I'm Nofated. I am a newbie in the coding world.
+                </Typography>
+              </Box>
+              <Box sx={{ my: 1 }}>
+                <Typography variant="h5" component="h2" gutterBottom>
+                  <strong>Misc</strong>
+                </Typography>
+                <Typography paragraph="true">
+                  🏫 I am delivered by Cloudflare Global CDN. Live on Cloud.<br />
+                  📒️ I have a <Link href="https://blog.nofated.win/">blog</Link> based on Hexo.<br />
+                  ⌨️ Coding and open-source are great! Though I haven't learnt any languages...<br />
+                  🧪 I am an iGEMer, now working for 2023 <Link href="https://competition.igem.org/">iGEM Competition</Link>!<br />
+                  🚔 I am a fan of Yuzu Soft, Minecraft, Grand Theft Auto, and anime.<br />
+                </Typography>
+              </Box>
+              <Box sx={{ my: 1 }}>
+                <Typography variant="h5" component="h2" gutterBottom>
+                  <strong>Find me at</strong>
+                </Typography>
                 <Stack spacing={2} direction="row">
                   <Button variant="text" color="inherit" href="https://github.com/Nofated095" startIcon={<GitHubIcon />}>
                     GitHub
@@ -122,25 +140,18 @@ export default function App() {
                   </Button>
                 </Stack>
               </Box>
-              <Box sx={{ my: 1 }}>
-                <Typography variant="h5" component="h2" gutterBottom>
-                  Misc
-                </Typography>
-                🏫 I am delivered by Cloudflare Global CDN. Lives on Cloud.<br />
-                📒️ I have a blog based on Hexo.<br />
-                ⌨️ Coding and open-source are great! Though I haven't learnt any languages...<br />
-                🧪 I am an iGEMer, now working for 2023 <Link href="https://competition.igem.org/">iGEM Competition</Link>!<br />
-                🚔 I am a fan of Yuzu Soft, Minecraft, Grand Theft Auto, and anime.<br />
-              </Box>
             </TabPanel>
             <TabPanel value={value} index={1}>
               <Box sx={{ my: 1 }}>
                 <Typography variant="h5" component="h2" gutterBottom>
-                  About
+                  <strong>About</strong>
                 </Typography>
-                I am in senior high and I'm preparing for the Chinese College Entrance Examination, aka GaoKao. Maybe I will also prepare for Hong Kong DSE.<br />
-
-                I do open-source works, you can check them on <Link href='https://github.com/Nofated095'>GitHub</Link>. But I don't have any completely independent open-source project that is made by myself.😢<br />
+                <Typography paragraph="true">
+                  I am in senior high and I'm preparing for the Chinese College Entrance Examination, aka GaoKao. Maybe I will also prepare for Hong Kong DSE.
+                </Typography>
+                <Typography paragraph="true" >
+                  I do open-source works, you can check them on <Link href='https://github.com/Nofated095'>GitHub</Link>. But I don't have any completely independent open-source project that is made by myself.😢
+                </Typography>
 
                 {/* I am happy to chat. Chinese is OK but I am very poor at English listening and speaking.😰 */}
 
