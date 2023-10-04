@@ -109,7 +109,7 @@ export default function App() {
                   <strong>Yoo!</strong>
                 </Typography>
                 <Typography paragraph>             
-                  I'm Nofated. I am a newbie in the coding world, new to the Internet World.
+                  I'm Nofated, aka Tanikaze Amane.
                 </Typography>
               </Box>
               <Box sx={{ my: 1 }}>
@@ -119,7 +119,7 @@ export default function App() {
                 <Typography paragraph>
                   🏫 I am delivered by Cloudflare Global CDN. Live on Cloud.<br />
                   📒️ I have a <Link href="https://blog.nofated.win/">blog</Link> based on Hexo.<br />
-                  ⌨️ Coding and open-source are great! Though I haven't learnt any languages...<br />
+                  ⌨️ Coding and open-source are great! Let's commit together!<br />
                   🧪 I am an iGEMer, now working for 2023 <Link href="https://competition.igem.org/">iGEM Competition</Link>!<br />
                   🚔 I am a fan of Yuzu Soft, Minecraft, Grand Theft Auto, and anime.<br />
                 </Typography>
