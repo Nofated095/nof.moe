@@ -150,7 +150,8 @@ export default function App() {
                   I am in senior high and I'm preparing for the Chinese College Entrance Examination, aka GaoKao. Maybe I will also prepare for Hong Kong DSE.
                 </Typography>
                 <Typography paragraph>
-                  I do open-source works, you can check them on <Link href='https://github.com/Nofated095'>GitHub</Link>. But I don't have any completely independent open-source project that is made by myself.😢
+                  I do open-source works, you can check them on <Link href='https://github.com/Nofated095'>GitHub</Link>. 
+                  I am a full-stack developer, focusing on NodeJs.
                 </Typography>
 
                 {/* I am happy to chat. Chinese is OK but I am very poor at English listening and speaking.😰 */}
