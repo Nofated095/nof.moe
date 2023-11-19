@@ -117,11 +117,9 @@ export default function App() {
                   <strong>Misc</strong>
                 </Typography>
                 <Typography paragraph>
-                  🏫 I am delivered by Cloudflare Global CDN. Live on Cloud.<br />
                   📒️ I have a <Link href="https://blog.nofated.win/">blog</Link> based on Hexo.<br />
-                  ⌨️ Coding and open-source are great! Let's commit together!<br />
-                  🧪 I am an iGEMer, now working for 2023 <Link href="https://competition.igem.org/">iGEM Competition</Link>!<br />
-                  🚔 I am a fan of Yuzu Soft, Minecraft, Grand Theft Auto, and anime.<br />
+                  ⌨️ Coding and open-source are great! Let's contribute together!<br />
+                  🧪 I used to be an iGEMer. My team won a 🥈silver medal in <Link href="https://competition.igem.org/">iGEM Competition</Link> 2023!<br />
                 </Typography>
               </Box>
               <Box sx={{ my: 1 }}>
@@ -147,14 +145,11 @@ export default function App() {
                   <strong>About</strong>
                 </Typography>
                 <Typography paragraph>
-                  I am in senior high and I'm preparing for the Chinese College Entrance Examination, aka GaoKao. Maybe I will also prepare for Hong Kong DSE.
+                  I am in senior high and I'm preparing for the Chinese College Entrance Examination, aka GaoKao.
                 </Typography>
                 <Typography paragraph>
-                  I do open-source works, you can check them on <Link href='https://github.com/Nofated095'>GitHub</Link>. 
-                  I am a full-stack developer, focusing on NodeJs.
+                  I do open-source works, you can check them on <Link href='https://github.com/Nofated095'>GitHub</Link>. Most of them are useless and have lots of bugs.
                 </Typography>
-
-                {/* I am happy to chat. Chinese is OK but I am very poor at English listening and speaking.😰 */}
 
               </Box>
             </TabPanel>
