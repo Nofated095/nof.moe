@@ -5,10 +5,12 @@
     <link rel="icon" type="image/svg+xml" href="https://cdn.nofated.win/mc" />
 <!--     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home · Nofated</title>
+    <title>Amane's Intro</title>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>window.addEventListener("load",()=>{const e="1699180247";"serviceWorker"in navigator&&localStorage.getItem("sw.js-version")!=e?(navigator.serviceWorker.register("/sw.js",{scope:"/"}).then(function(t){console.log("ServiceWorker registration successful with scope: ",t.scope),localStorage.setItem("sw.js-version",e)}).catch(function(e){console.warn("ServiceWorker registration failed: ",e)}),navigator.serviceWorker.addEventListener("controllerchange",function(){var e=document.querySelector("title");e.innerText="Need update Service Worker - "+e.innerText})):console.log("ServiceWorker already the latest version."),quicklink.listen()})</script>
+    <script src="/quicklink.js"></script>
   </body>
 </html>

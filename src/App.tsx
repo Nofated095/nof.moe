@@ -84,21 +84,21 @@ export default function App() {
           <Grid xs={"auto"}>
             <Avatar
               src={`https://cdn.nofated.win/avatarsoss`}
-              srcSet={`https://cdn.nofated.win/avatar/256`}
-              alt={'Nofated avatar'}
+              srcSet={`https://xgjalbum.oss-cn-hangzhou.aliyuncs.com/623fec2f97df7d3eee768933/AC1BFF0F-E891-41D0-8BB7-08C4DDB70CA9.png?x-oss-process=image/resize,m_fill,h_256,w_256,limit_0/format,webp`}
+              alt={'avatar'}
               sx={{ width: 128, height: 128 }}
             />
             {/* <Avatar alt="Nofated" src="https://cdn.nofated.win/avatarsoss" sx={{ width: 128, height: 128 }} /> */}
           </Grid>
           <Grid xs={8.75}>
             <Typography variant="h4" component="h1" gutterBottom sx={{ fontFamily: 'neonderthaw' }}>
-              Nofated
+              Amane
             </Typography>
             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-              <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+              <Tabs value={value} onChange={handleChange} aria-label="tabs">
                 <Tab label="Home" {...a11yProps(0)} />
                 <Tab label="About" {...a11yProps(1)} />
-                <Tab label="Blog" href="https://blog.nofated.win" />
+                <Tab label="Blog" href="https://blog.amane.icu" />
               </Tabs>
             </Box>
           </Grid>
@@ -109,7 +109,7 @@ export default function App() {
                   <strong>Yoo!</strong>
                 </Typography>
                 <Typography paragraph>             
-                  I'm Nofated, aka Tanikaze Amane.
+                  I'm Amane, aka Nofated.
                 </Typography>
               </Box>
               <Box sx={{ my: 1 }}>
@@ -117,7 +117,7 @@ export default function App() {
                   <strong>Misc</strong>
                 </Typography>
                 <Typography paragraph>
-                  📒️ I have a <Link href="https://blog.nofated.win/">blog</Link> based on Hexo.<br />
+                  📒️ I have a <Link href="https://blog.amane.icu/">blog</Link> based on Hexo.<br />
                   ⌨️ Coding and open-source are great! Let's contribute together!<br />
                   🧪 I used to be an iGEMer. My team won a 🥈silver medal in <Link href="https://competition.igem.org/">iGEM Competition</Link> 2023!<br />
                 </Typography>
@@ -145,12 +145,14 @@ export default function App() {
                   <strong>About</strong>
                 </Typography>
                 <Typography paragraph>
+                  My full name is Tanikaze Amane, but you may here some one call me Nofated or nof.
+                </Typography>
+                <Typography paragraph>
                   I am in senior high and I'm preparing for the Chinese College Entrance Examination, aka GaoKao.
                 </Typography>
                 <Typography paragraph>
                   I do open-source works, you can check them on <Link href='https://github.com/Nofated095'>GitHub</Link>. Most of them are useless and have lots of bugs.
                 </Typography>
-
               </Box>
             </TabPanel>
             <TabPanel value={value} index={2}>
