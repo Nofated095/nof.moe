@@ -18,11 +18,11 @@ function Copyright() {
   return (
     <>
       <Typography variant="body2" color="text.secondary" align="center">
-        {'Copyright © '}
+        {'Copyright © '}{new Date().getFullYear()}{' '}
         <Link color="inherit" href="#">
-          Nofated095
-        </Link>{' '}
-        {new Date().getFullYear()}.
+          Amane
+        </Link>
+        .
       </Typography>
       <Typography variant="body2" color="text.secondary" align="center">
         <Link color="inherit" href="https://icp.gov.moe/?keyword=20230721">
@@ -152,13 +152,6 @@ export default function App() {
                 </Typography>
                 <Typography paragraph>
                   I do open-source works, you can check them on <Link href='https://github.com/Nofated095'>GitHub</Link>. Most of them are useless and have lots of bugs.
-                </Typography>
-              </Box>
-            </TabPanel>
-            <TabPanel value={value} index={2}>
-              <Box sx={{ my: 1 }}>
-                <Typography variant="h5" component="h2" gutterBottom>
-                  Redirecting...
                 </Typography>
               </Box>
             </TabPanel>
