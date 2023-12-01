@@ -1,7 +1,7 @@
-importScripts('https://cdn.staticfile.org/workbox-sw/5.1.4/workbox-sw.min.js');
+importScripts('/workbox/workbox-sw.min.js');
 
 workbox.setConfig({
-    modulePathPrefix: 'https://cdn.staticfile.org/workbox-sw/5.1.4/'
+    modulePathPrefix: '/workbox/'
 });
 
 const { core, precaching, routing, strategies, expiration, cacheableResponse, backgroundSync } = workbox;
@@ -9,7 +9,7 @@ const { CacheFirst, NetworkFirst, NetworkOnly, StaleWhileRevalidate } = strategi
 const { ExpirationPlugin } = expiration;
 const { CacheableResponsePlugin } = cacheableResponse;
 
-const cacheSuffixVersion = '-231126a',
+const cacheSuffixVersion = '-2311201a',
     // precacheCacheName = core.cacheNames.precache,
     // runtimeCacheName = core.cacheNames.runtime,
     maxEntries = 100;
@@ -52,41 +52,7 @@ routing.registerRoute(
 );
 
 routing.registerRoute(
-    /.*cdn\.staticfile\.org/,
-    new CacheFirst({
-        cacheName: 'static-immutable' + cacheSuffixVersion,
-        fetchOptions: {
-            mode: 'cors',
-            credentials: 'omit'
-        },
-        plugins: [
-            new ExpirationPlugin({
-                maxAgeSeconds: 30 * 24 * 60 * 60,
-                purgeOnQuotaError: true
-            })
-        ]
-    })
-);
-
-routing.registerRoute(
     /.*cdn\.nofated\.win/,
-    new CacheFirst({
-        cacheName: 'static-immutable' + cacheSuffixVersion,
-        fetchOptions: {
-            mode: 'cors',
-            credentials: 'omit'
-        },
-        plugins: [
-            new ExpirationPlugin({
-                maxAgeSeconds: 30 * 24 * 60 * 60,
-                purgeOnQuotaError: true
-            })
-        ]
-    })
-);
-
-routing.registerRoute(
-    /.*cdn\.jsdelivr\.net/,
     new CacheFirst({
         cacheName: 'static-immutable' + cacheSuffixVersion,
         fetchOptions: {
@@ -134,18 +100,6 @@ routing.registerRoute(
             })
         ]
     })
-);
-
-routing.registerRoute(
-    new RegExp('analytics.google.com'),
-    new NetworkOnly({
-        plugins: [
-            new backgroundSync.BackgroundSyncPlugin('ga_new', {
-                maxRetentionTime: 12 * 60
-            }),
-        ]
-    }),
-    "POST"
 )
 
 const StaleWhileRevalidateInstance = new StaleWhileRevalidate();
