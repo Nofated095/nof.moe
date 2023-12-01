@@ -155,6 +155,13 @@ export default function App() {
                 </Typography>
               </Box>
             </TabPanel>
+            <TabPanel value={value} index={2}>
+              <Box sx={{ my: 1 }}>
+                <Typography variant="h5" component="h2" gutterBottom>
+                <strong>Redirecting...</strong>
+                </Typography>
+              </Box>
+            </TabPanel>
           </Box>
         </Grid>
         <Copyright />
