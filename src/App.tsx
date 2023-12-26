@@ -145,10 +145,7 @@ export default function App() {
                   <strong>About</strong>
                 </Typography>
                 <Typography paragraph>
-                  My full name is Tanikaze Amane, but you may here some one call me Nofated or nof.
-                </Typography>
-                <Typography paragraph>
-                  I am in senior high and I'm preparing for the Chinese College Entrance Examination, aka GaoKao.
+                  My full name is Tanikaze Amane, but you may hear some one call me Nofated or nof.
                 </Typography>
                 <Typography paragraph>
                   I do open-source works, you can check them on <Link href='https://github.com/Nofated095'>GitHub</Link>. Most of them are useless and have lots of bugs.
