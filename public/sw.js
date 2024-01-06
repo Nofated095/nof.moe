@@ -9,7 +9,7 @@ const { CacheFirst, NetworkFirst, NetworkOnly, StaleWhileRevalidate } = strategi
 const { ExpirationPlugin } = expiration;
 const { CacheableResponsePlugin } = cacheableResponse;
 
-const cacheSuffixVersion = '-2311201a',
+const cacheSuffixVersion = '-240101a',
     // precacheCacheName = core.cacheNames.precache,
     // runtimeCacheName = core.cacheNames.runtime,
     maxEntries = 100;
@@ -35,7 +35,7 @@ core.clientsClaim();
 precaching.cleanupOutdatedCaches();
 
 routing.registerRoute(
-    /.*xgjalbum\.oss-cn-hangzhou\.aliyuncs\.com/,
+    /.*cfdn\.nofated\.win/,
     new CacheFirst({
         cacheName: 'static-immutable' + cacheSuffixVersion,
         fetchOptions: {

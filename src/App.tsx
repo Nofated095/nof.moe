@@ -84,7 +84,7 @@ export default function App() {
           <Grid xs={"auto"}>
             <Avatar
               src={`https://cdn.nofated.win/avatarsoss`}
-              srcSet={`https://xgjalbum.oss-cn-hangzhou.aliyuncs.com/623fec2f97df7d3eee768933/AC1BFF0F-E891-41D0-8BB7-08C4DDB70CA9.png?x-oss-process=image/resize,m_fill,h_256,w_256,limit_0/format,webp`}
+              srcSet={`https://cfdn.nofated.win/avatars/avatar.webp`}
               alt={'avatar'}
               sx={{ width: 128, height: 128 }}
             />
